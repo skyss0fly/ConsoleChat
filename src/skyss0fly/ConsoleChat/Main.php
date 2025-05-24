@@ -16,7 +16,7 @@ class Main extends PluginBase {
                     $sender->sendMessage(tf::RED . "Usage: /c <message>");
                 } else {
                     $message = implode(" ", $args);
-                    $this->getServer()->broadcastMessage(tf::LIGHT_PURPLE . "[SERVER] " . $message);
+                    $this->getServer()->broadcastMessage(tf::LIGHT_PURPLE . "[Server] " . $message);
                 }
                 return true;
             }
