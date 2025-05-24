@@ -1,0 +1,17 @@
+name: ConsoleChat
+main: skyss0fly\ConsoleChat\Main
+version: 0.1.1
+api: 5.0.0
+author: skyss0fly
+description: A plugin that simplifies chatting on console
+
+commands:
+  c:
+    description: consolechat system
+    usage: /c <message>
+    permission: c.use
+
+permissions:
+  c.use:
+    description: consolechat system
+    default: op
